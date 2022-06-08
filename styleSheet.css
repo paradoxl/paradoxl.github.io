@@ -1,0 +1,42 @@
+li{
+    list-style-type: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.navBar .container{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: x-large  
+}
+.navBar{
+    background-color: darkcyan;
+    color: white;
+}
+.navtags{
+    display: flex;
+    gap: 8px;
+}
+
+
+
+.mid .container{
+    display: flex;
+}
+.mid{
+    background-color: white;
+}
+.quotes .container{
+    display: flex;
+}
+.quotes{
+    background-color: grey;
+}
+.contact{
+    background-color: grey;
+}
+.contact .container{
+    display: flex;
+}
