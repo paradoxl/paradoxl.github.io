@@ -103,17 +103,26 @@ body{
     padding: 10px;
 }
 .lowerPanel{
-    background-color: #038BAD;
-}
-.quotes .container{
     display: flex;
 }
 .quotes{
-    background-color: grey;
+    display: flex;
+    border-radius: 25px;
+    color: white;
+    background-color: #0336AD;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact{
+    display: flex;
 }
 .contact{
+    color: white;
+    justify-content: flex-start;
+    align-items: left;
     background-color: grey;
-}
-.contact .container{
-    display: flex;
 }
