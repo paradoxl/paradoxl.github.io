@@ -12,21 +12,46 @@ body{
     font-size: x-large  
 }
 .navBar{
-    background-color: darkcyan;
+    background-color: #038BAD;
     color: white;
+}
+
+.navBar .logo{
+    margin-left: 30px;
 }
 .navtags{
     display: flex;
     gap: 8px;
+    
 }
+
+.navtags li{
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.navtags li a {
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
 .mid .container{
     display: flex;
+    justify-content: space-around;
 }
 .mid{
-    background-color: white;
+    background-color:#038BAD;
+    color: white;
+}
+.xp{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #0336AD;
+    padding: 10px;
 }
 .quotes .container{
     display: flex;
