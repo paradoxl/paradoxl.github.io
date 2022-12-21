@@ -17,6 +17,10 @@
     display: flex;
     padding: 15px
 }
+.nav-resume{
+    display: flex;
+    padding: 15px;
+}
 .laser{
     background-image: linear-gradient(to right, blue,#5893da,#ADD8E6 );
     height: 5px;
@@ -47,4 +51,11 @@
     justify-content: center;
     margin: auto;
     padding: 20px;
+}
+
+embed{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    height: 100vh;
 }
