@@ -35,13 +35,16 @@
     border-radius: 150px;
 }
 .about{
-    height: 400px;
-    width: 650px;
+    /* height: 400px;
+    width: 650px; */
     margin: auto;
+    padding: 20px;
 }
+
 
 .skills-languages{
     display: flex;
     justify-content: center;
     margin: auto;
+    
 }
