@@ -1,42 +1,47 @@
-li{
-    list-style-type: none;
-}
-body{
-    margin: 0;
-    padding: 0;
-}
-.navBar .container{
+.nav{
     display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    font-size: x-large  
-}
-.navBar{
-    background-color: darkcyan;
-    color: white;
-}
-.navtags{
-    display: flex;
-    gap: 8px;
-}
-
-
-
-.mid .container{
-    display: flex;
-}
-.mid{
+    justify-content: left;
     background-color: white;
+    height: auto;
+    width: auto;
 }
-.quotes .container{
+.nav-name{
     display: flex;
+    padding: 15px;
 }
-.quotes{
-    background-color: grey;
-}
-.contact{
-    background-color: grey;
-}
-.contact .container{
+.nav-github{
     display: flex;
+    padding: 15px;
+}
+.nav-linkdin{
+    display: flex;
+    padding: 15px
+}
+.laser{
+    background-image: linear-gradient(to right, blue,#5893da,#ADD8E6 );
+    height: 5px;
+}
+.disc{
+    height: 250px;
+    background-color: #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.port{
+    padding: 15px;
+    border-radius: 150px;
+}
+.about{
+    height: 400px;
+    width: 650px;
+    margin: auto;
+}
+
+.skills-languages{
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
