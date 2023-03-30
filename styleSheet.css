@@ -43,14 +43,16 @@
     width: 650px; */
     margin: auto;
     padding: 20px;
+    display: flex;
 }
-
 
 .skills-languages{
     display: flex;
-    justify-content: center;
-    margin: auto;
-    padding: 20px;
+    justify-content: space-around;
+    margin: 10px;
+    /* padding: 10px; */
+
+
 }
 
 embed{
